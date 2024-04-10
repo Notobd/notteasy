@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+footer {
+  background-color: black;
+}
+.maindiv {
+  color: white;
+  overflow: auto;
+}
+.headicon {
+  display: block;
+  margin: auto;
+  padding: 50px 10px 10px;
+}
+#foot {
+}
+.footnav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-weight: bolder;
+  justify-content: space-between;
+
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.download {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.download-btn {
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+.download-btn1 {
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: goldenrod;
+}
+a:active {
+  color: white;
+}
+p {
+  margin: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.legal li {
+  list-style-type: none;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.copyright {
+  margin: 40px;
+  margin-top: 7px;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#creator {
+  margin-right: 20px;
+}
+.btn {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 14px;
+}
+.icon {
+  background-color: white;
+  height: 12px;
+}
+@media screen and (max-width: 768px) {
+  .footnav,
+  .legal {
+    flex-direction: column;
+  }
+  .download {
+  }
+}
